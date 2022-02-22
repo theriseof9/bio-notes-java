@@ -1,6 +1,10 @@
-package human.excretorySystem;
+package livingThing.human.excretorySystem;
 
-public class ExcretorySystem {
+import livingThing.NitrogenousWastes;
+import livingThing.human.System;
+import livingThing.human.excretorySystem.kidney.Kidney;
+
+public class ExcretorySystem extends System {
     NitrogenousWastes removes = NitrogenousWastes.Urea;
     String[]
             liver = {"bile pigments"},

@@ -1,7 +1,7 @@
-package human;
+package livingThing.human;
 
 /**
- * Major contents of human blood
+ * Major contents of livingThing.human blood
  */
 public enum BloodContents {
     water,

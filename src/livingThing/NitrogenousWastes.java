@@ -1,4 +1,4 @@
-package human.excretorySystem;
+package livingThing;
 
 public enum NitrogenousWastes {
     Ammonia,

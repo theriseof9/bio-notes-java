@@ -4,12 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3429ffbe-3c32-458e-b152-9f0adc68d044" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/NitrogenousWastes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/human/BloodContents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExcretorySystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/human/excretorySystem/ExcretorySystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/human/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kidney.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/human/excretorySystem/Kidney.java" afterDir="false" />
+    <list default="true" id="3429ffbe-3c32-458e-b152-9f0adc68d044" name="Changes" comment="Move stuff around for better classification">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filtration/Filtration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filtration/Ultrafiltration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livingThing/human/Function.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livingThing/human/Organ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livingThing/human/System.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/SelectiveReabsorption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/CollectingDuct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/Kidney.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/KidneyComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/nephron/DistalConvolutedTubule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/nephron/Glomerulus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/nephron/LoopOfHenle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/nephron/Nephron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/nephron/ProximalConvolutedTubule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/processes/MovementProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/human/BloodContents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/livingThing/human/BloodContents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/human/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/livingThing/human/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/human/excretorySystem/ExcretorySystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/ExcretorySystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/human/excretorySystem/Kidney.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/human/excretorySystem/NitrogenousWastes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/livingThing/NitrogenousWastes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +37,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -38,13 +56,21 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="livingThing" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,8 +79,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645499483920</updated>
-      <workItem from="1645499485381" duration="1176000" />
+      <workItem from="1645499485381" duration="9771000" />
     </task>
+    <task id="LOCAL-00001" summary="Move stuff around for better classification">
+      <created>1645500802731</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645500802731</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,5 +104,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Move stuff around for better classification" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move stuff around for better classification" />
   </component>
 </project>
