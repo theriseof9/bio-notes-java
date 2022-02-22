@@ -1,6 +1,9 @@
 package livingThing.human.excretorySystem.kidney;
 
+import livingThing.Transport;
 import livingThing.human.BloodContents;
+import livingThing.human.excretorySystem.kidney.nephron.DistalConvolutedTubule;
+import livingThing.human.excretorySystem.transports.RenalPelvis;
 
 /**
  * Collecting duct that collects liquid from each
@@ -9,12 +12,15 @@ import livingThing.human.BloodContents;
  * water permeability of cells making up its walls in
  * response to
  */
-public class CollectingDuct {
+public class CollectingDuct extends Transport {
     BloodContents[] carries = {
         BloodContents.salts,
         BloodContents.water,
         BloodContents.urea
     };
-    String from = "distal convoluted tubule";
-    String to = "renal pelvis";
+
+    public CollectingDuct() {
+        from = new DistalConvolutedTubule();
+        to = new RenalPelvis();
+    }
 }

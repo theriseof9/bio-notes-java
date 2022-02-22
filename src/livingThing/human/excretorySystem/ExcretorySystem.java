@@ -1,6 +1,7 @@
 package livingThing.human.excretorySystem;
 
 import livingThing.NitrogenousWastes;
+import livingThing.human.Organ;
 import livingThing.human.System;
 import livingThing.human.excretorySystem.kidney.Kidney;
 
@@ -11,5 +12,10 @@ public class ExcretorySystem extends System {
             skin = {"sweat", "urea", "excess water", "excess salts"},
             lungs = {"air", "carbon dioxide", "water vapour"},
             kidneys = {"urine", "urea", "excess water", "excess salts"};
-    Kidney kidney = new Kidney();
+
+    public ExcretorySystem() {
+        super.organs = new Organ[]{
+            new Kidney()
+        };
+    }
 }

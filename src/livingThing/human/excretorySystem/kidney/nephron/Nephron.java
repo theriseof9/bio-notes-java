@@ -3,7 +3,7 @@ package livingThing.human.excretorySystem.kidney.nephron;
 import livingThing.human.excretorySystem.SelectiveReabsorption;
 import livingThing.human.excretorySystem.kidney.KidneyComponent;
 
-public class Nephron extends KidneyComponent {
+public class Nephron implements KidneyComponent {
     SelectiveReabsorption selectiveReabsorption = new SelectiveReabsorption();
 
     KidneyComponent glomerulus = new Glomerulus();
