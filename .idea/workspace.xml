@@ -4,24 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3429ffbe-3c32-458e-b152-9f0adc68d044" name="Changes" comment="Moving files around with more concise naming and hierarchy, added Glomerulus, DCT, Loop of Henle and PCT classes which inherit KidneyComponent for Nephron">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/livingThing/Transport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/bladder/Bladder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/transports/RenalPelvis.java" afterDir="false" />
+    <list default="true" id="3429ffbe-3c32-458e-b152-9f0adc68d044" name="Changes" comment="Very incomplete hormone parts of Selective reabsorption, moving files around and fixed Glomerulus vs Bowman's Capsule misconception">
+      <change afterPath="$PROJECT_DIR$/src/filtration/Contents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livingThing/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livingThing/Function.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livingThing/LivingThing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/nephron/BowmanCapsule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/process/Ultrafiltration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/transports/AfferentArteriole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/transports/EfferentArteriole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livingThing/human/hormones/ADH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livingThing/human/hormones/Hormone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/livingThing/human/misc/PituitaryGland.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bio Notes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Bio Notes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/filtration/Filtration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filtration/Filtration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/filtration/Ultrafiltration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filtration/Ultrafiltration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/livingThing/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/livingThing/Transport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/livingThing/human/BloodContents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/livingThing/human/BloodContents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/livingThing/human/Function.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/livingThing/human/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/livingThing/human/Human.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/livingThing/human/Organ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/livingThing/human/Organ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/livingThing/human/System.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/livingThing/human/System.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/livingThing/human/System.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/livingThing/System.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/ExcretorySystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/ExcretorySystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/SelectiveReabsorption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/process/SelectiveReabsorption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/bladder/Bladder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/bladder/Bladder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/CollectingDuct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/CollectingDuct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/Kidney.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/Kidney.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/KidneyComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/KidneyComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/nephron/DistalConvolutedTubule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/nephron/DistalConvolutedTubule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/nephron/Glomerulus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/nephron/Glomerulus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/nephron/LoopOfHenle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/nephron/LoopOfHenle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/nephron/Nephron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/nephron/Nephron.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/nephron/ProximalConvolutedTubule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/kidney/nephron/ProximalConvolutedTubule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/transports/RenalPelvis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/livingThing/human/excretorySystem/transports/RenalPelvis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +46,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -47,27 +63,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "true",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "project.propCompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="livingThing" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="livingThing.human.excretorySystem.transports" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -78,7 +97,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645499483920</updated>
-      <workItem from="1645499485381" duration="12478000" />
+      <workItem from="1645499485381" duration="18296000" />
+      <workItem from="1645594304271" duration="7264000" />
     </task>
     <task id="LOCAL-00001" summary="Move stuff around for better classification">
       <created>1645500802731</created>
@@ -94,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645523744760</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Configured transports for all applicable classes">
+      <created>1645527068224</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1645527068224</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +141,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Move stuff around for better classification" />
     <MESSAGE value="Moving files around with more concise naming and hierarchy, added Glomerulus, DCT, Loop of Henle and PCT classes which inherit KidneyComponent for Nephron" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moving files around with more concise naming and hierarchy, added Glomerulus, DCT, Loop of Henle and PCT classes which inherit KidneyComponent for Nephron" />
+    <MESSAGE value="Configured transports for all applicable classes" />
+    <MESSAGE value="Very incomplete hormone parts of Selective reabsorption, moving files around and fixed Glomerulus vs Bowman's Capsule misconception" />
+    <option name="LAST_COMMIT_MESSAGE" value="Very incomplete hormone parts of Selective reabsorption, moving files around and fixed Glomerulus vs Bowman's Capsule misconception" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

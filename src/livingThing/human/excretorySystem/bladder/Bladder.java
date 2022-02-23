@@ -9,6 +9,7 @@ import livingThing.human.Organ;
  */
 public class Bladder extends Organ {
     public Bladder() {
-
+        name = "Bladder";
+        description = "A place to hold urine before its excreted";
     }
 }

@@ -2,7 +2,7 @@ package livingThing.human.excretorySystem;
 
 import livingThing.NitrogenousWastes;
 import livingThing.human.Organ;
-import livingThing.human.System;
+import livingThing.System;
 import livingThing.human.excretorySystem.kidney.Kidney;
 
 public class ExcretorySystem extends System {
@@ -14,7 +14,12 @@ public class ExcretorySystem extends System {
             kidneys = {"urine", "urea", "excess water", "excess salts"};
 
     public ExcretorySystem() {
-        super.organs = new Organ[]{
+        name = "Excretory System";
+        description = """
+            Excretes/secretes/egests nitrogenous waste in various forms
+            out of the body via various organs.
+            """;
+        organs = new Organ[]{
             new Kidney()
         };
     }

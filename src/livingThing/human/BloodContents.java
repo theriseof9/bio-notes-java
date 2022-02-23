@@ -1,9 +1,11 @@
 package livingThing.human;
 
+import filtration.Contents;
+
 /**
  * Major contents of livingThing.human blood
  */
-public enum BloodContents {
+public enum BloodContents implements Contents {
     water,
     urea,
     aminoAcids,

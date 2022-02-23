@@ -1,5 +1,6 @@
 package livingThing.human.excretorySystem.kidney;
 
+import livingThing.Cell;
 import livingThing.Transport;
 import livingThing.human.BloodContents;
 import livingThing.human.excretorySystem.kidney.nephron.DistalConvolutedTubule;
@@ -13,6 +14,7 @@ import livingThing.human.excretorySystem.transports.RenalPelvis;
  * response to
  */
 public class CollectingDuct extends Transport {
+    Cell[] cells = new CollectingDuctCell[100]; // An arbitrary number
     BloodContents[] carries = {
         BloodContents.salts,
         BloodContents.water,
@@ -22,5 +24,18 @@ public class CollectingDuct extends Transport {
     public CollectingDuct() {
         from = new DistalConvolutedTubule();
         to = new RenalPelvis();
+    }
+}
+
+/**
+ * A cell that makes up the collecting duct
+ * Incomplete!!!
+ */
+class CollectingDuctCell extends Cell {
+    CollectingDuctCell() {
+        hasNucleus = true;
+        description = """
+            
+            """;
     }
 }

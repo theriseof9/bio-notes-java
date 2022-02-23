@@ -5,7 +5,8 @@ import livingThing.human.excretorySystem.kidney.KidneyComponent;
 
 public class ProximalConvolutedTubule extends Transport implements KidneyComponent {
     public ProximalConvolutedTubule() {
-        from = new Glomerulus();
+        from = new BowmanCapsule();
         to = new LoopOfHenle();
+        name = "Proximal Convoluted Tubule (PCT)";
     }
 }
